@@ -19,7 +19,7 @@ const appRoute = require("./backend/routes/app");
 
 app.use("/", appRoute);
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8080 ;
 
 app.listen(PORT, () => {
   console.log(`Port ni Arjay: ${PORT}`);
